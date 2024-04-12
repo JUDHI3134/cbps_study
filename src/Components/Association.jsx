@@ -54,7 +54,7 @@ const Association = () => {
         <hr className='h-1 bg-black rounded-lg w-[200px] mx-auto my-1'/>
        </div>
         <br />
-        <div className='grid grid-cols-2 md:grid-cols-6 gap-3 my-10'>
+        <div className='grid grid-cols-2 md:grid-cols-6 gap-3 my-6'>
             {cardItem.map(({id,logo,name,liveLink})=>(
                 <div className='md:w-[200px] md:h-[200px] rounded-lg border-[2px] shadow-lg p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
                   <a href={liveLink} target='_blank'><img src={logo} className='w-full h-[100px] md:h-[180px] p-1 border-[2px]' alt="" /></a>
