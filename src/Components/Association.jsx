@@ -11,37 +11,37 @@ const Association = () => {
         {
             id:1,
             logo:isbm,
-            name:"ISBM UNIVERSITY",
+            // name:"ISBM UNIVERSITY",
             liveLink:"https://isbmuniversity.edu.in/",
         },
         {
             id:2,
             logo:kalinga,
-            name:"KALINGA UNIVERSITY",
+            // name:"KALINGA UNIVERSITY",
             liveLink:"https://admissions.kalingauniversity.ac.in/?utm_source=collegedunia&utm_medium=text11&utm_campaign=online",
         },
         {
             id:3,
             logo:mats,
-            name:"MATS UNIVERSITY",
+            // name:"MATS UNIVERSITY",
             liveLink:"https://matsuniversity.ac.in/",
         },
         {
             id:4,
             logo:niilm,
-            name:"NIILM UNIVERSITY",
+            // name:"NIILM UNIVERSITY",
             liveLink:"https://www.niilmuniversity.ac.in/",
         },
         {
             id:5,
             logo:ne_frontier,
-            name:"NORTH EAST FRONTIER UNIVERSITY",
+            // name:"NEF UNIVERSITY",
             liveLink:"https://www.neftu.edu.in/",
         },
         {
             id:6,
             logo:open_school,
-            name:"BOARD OF OPEN SCHOOLING AND SKILL EDUCATION",
+            // name:"BOARD OF OPEN SCHOOLING AND SKILL EDUCATION",
             liveLink:"https://www.bosse.ac.in/",
         },
     ]
@@ -54,10 +54,10 @@ const Association = () => {
         <hr className='h-1 bg-black rounded-lg w-[200px] mx-auto my-1'/>
        </div>
         <br />
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-3 my-10'>
+        <div className='grid grid-cols-2 md:grid-cols-6 gap-3 my-10'>
             {cardItem.map(({id,logo,name,liveLink})=>(
-                <div className='md:w-[300px] md:h-[300px] rounded-lg border-[2px] shadow-lg p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
-                  <a href={liveLink} target='_blank'><img src={logo} className='w-full h-[150px] md:h-[220px] p-1 border-[2px]' alt="" /></a>
+                <div className='md:w-[200px] md:h-[200px] rounded-lg border-[2px] shadow-lg p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
+                  <a href={liveLink} target='_blank'><img src={logo} className='w-full h-[100px] md:h-[180px] p-1 border-[2px]' alt="" /></a>
                   <div>
                     <div className='font-bold text-xl mb-2 px-2 text-center'>{name}</div>
                     <p className='px-2 text-gray-700'></p>

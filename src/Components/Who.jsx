@@ -24,7 +24,7 @@ const Who = () => {
 
       {/* <div className=''> */}
       <div className='flex flex-col md:flex-row justify-between gap-11 mt-12 space-y-2 mb-12'>
-        <div>
+        <div className='shadow-2xl p-6'>
         <h1 className='text-xl font-bold'>Our Basic Functions Includes Student Support Functions They Include:</h1>
         <ul className='mt-8 space-y-1'>
             <li className='list-disc ml-1'>Admission or Registration support in Boards and Universities</li>
@@ -34,7 +34,7 @@ const Who = () => {
         </ul>
         </div>
 
-        <div>
+        <div className='shadow-2xl p-6'>
         <h1 className='text-xl font-bold'>Our Core Areas Of Courses</h1>
         <ul className='mt-8 space-y-1'>
           <li className='list-disc ml-1'><span className='font-semibold text-blue-600'>CLASS X</span> - For Dropped Students from Open Schools like NIOS, BOSSE</li>
@@ -45,9 +45,9 @@ const Who = () => {
           <li className='list-disc ml-1'><span className='font-semibold text-blue-600'>B.Tech Courses</span> - BTECH (Mechanical, Electricals, Computer Science, IT)</li>
             </ul>
         </div>
+      {/* </div> */}
         
       </div>
-      {/* </div> */}
 
     </div>
     </>

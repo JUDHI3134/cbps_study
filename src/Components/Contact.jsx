@@ -17,10 +17,10 @@ const Contact = () => {
                </div>
                <h1 className='text-xl font-bold mb-5 text-center'>REACH US THROUGH</h1>
           <ul className="space-y-3 mt-10 justify-center items-center">
-            <li className="flex gap-2 items-center"><span><FaLocationDot className="text-blue-500" /></span>Madhusudan Pali ward No 11 Rourkela pin-769013</li>
-            <li className="flex gap-2 items-center"><span><FaPhone className="text-blue-500" /></span>+91 8117036222</li>
+            <li className="flex gap-2 items-center"><a href="https://maps.app.goo.gl/2HFLBVJNsKZc5NjX7" target="_blank"><FaLocationDot className="text-blue-500" /></a>Madhusudan Pali ward No 11 Rourkela pin-769013</li>
+            <li className="flex gap-2 items-center"><a href="tel:+918117036222"><FaPhone className="text-blue-500" /></a>+91 8117036222</li>
             <li className="flex gap-2 items-center"><a href="https://wa.me/8117036222" target="_blank"><FaWhatsapp className="text-green-700" /></a>+91 8117036222</li>
-            <li className="flex gap-2 items-center"><span><IoMail className="text-red-500" /></span>cbpsrourkela@gmail.com</li>
+            <li className="flex gap-2 items-center"><a href="mailto:cbpsrourkela@gmail.com"><IoMail className="text-red-500" /></a>cbpsrourkela@gmail.com</li>
           </ul>
            
                </div>
