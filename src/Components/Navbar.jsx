@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 bg-white z-50 shadow-md h-20 fixed top-0 right-0 left-0'>
+      <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 bg-white z-50 h-20 shadow-md fixed top-0 right-0 left-0'>
           <div className='flex justify-between items-center h-25'>
             <div className='flex space-x-2 items-center'>
                 <img src={logo} alt="" className='w-[80px] h-[80px] rounded-full'/>
