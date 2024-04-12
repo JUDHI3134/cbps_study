@@ -3,13 +3,13 @@ import React from 'react'
 const CourseOffer = () => {
   return (
     <>
-      <div className='max-w-screen-2xl container mx-auto px-4 md:px-16'>
+      <div name="Service" className='max-w-screen-2xl container mx-auto px-4 md:px-16'>
       <h1 className='text-3xl font-bold text-center mt-12'>Courses We Offer</h1>
       <hr className='h-1 bg-black rounded-lg w-[200px] mx-auto my-1'/>
-   <br />
+      <br />
 
          
-        <div className='grid md:grid-cols-3 grid-cols-1 my-5 gap-6 mt-10'>
+        <div className='grid md:grid-cols-3 grid-cols-1 my-5 gap-6 mt-10 mb-6'>
         
             <div className='md:w-[400px] md:h-auto rounded-lg border-[2px] shadow-lg p-4 cursor-pointer hover:scale-110 duration-300'>
             <h1 className='text-3xl text-center font-bold'>CLASS X</h1>

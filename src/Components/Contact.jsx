@@ -12,11 +12,14 @@ const Contact = () => {
        <hr className='h-1 bg-black rounded-lg w-[200px] mx-auto my-1'/>
             <div className='flex flex-col md:flex-row'>
                <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
+               <div>
+               <iframe className="mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5222.872944690654!2d84.84323421996378!3d22.235188486181606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201904b33256d1%3A0xb2dc9bc61045dac0!2sMadhusudan%20palli%20(%20MS%20palli%20)!5e0!3m2!1sen!2sin!4v1712469760123!5m2!1sen!2sin" width="600" height="350" style={{border:0}}allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
                <h1 className='text-xl font-bold mb-5 text-center'>REACH US THROUGH</h1>
           <ul className="space-y-3 mt-10 justify-center items-center">
             <li className="flex gap-2 items-center"><span><FaLocationDot className="text-blue-500" /></span>Madhusudan Pali ward No 11 Rourkela pin-769013</li>
             <li className="flex gap-2 items-center"><span><FaPhone className="text-blue-500" /></span>+91 8117036222</li>
-            <li className="flex gap-2 items-center"><span><FaWhatsapp className="text-green-700" /></span>+91 8117036222</li>
+            <li className="flex gap-2 items-center"><a href="https://wa.me/8117036222" target="_blank"><FaWhatsapp className="text-green-700" /></a>+91 8117036222</li>
             <li className="flex gap-2 items-center"><span><IoMail className="text-red-500" /></span>cbpsrourkela@gmail.com</li>
           </ul>
            
@@ -25,20 +28,20 @@ const Contact = () => {
                 <div className='md:w-1/2 md:ml-48 md:mt-20 order-1 mt-8'>
                 
                 <div>
-                    <form action="" className='bg-slate-200 px-8 py-6 rounded-lg'>
+                    <form className='bg-slate-200 px-8 py-6 rounded-lg'>
                     <h1 className='text-xl text-center font-semibold mb-4'>Send Your Message</h1>
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div className='flex flex-col mb-4'>
                   <label className='block text-gray-700'>FullName </label>
-                   <input className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="text" name="name" placeholder='Enter your FullName'  />
+                   <input className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="text" name="name" placeholder='Enter your FullName' required  />
                     </div>
                     <div className='flex flex-col mb-4'>
                 <label className='block text-gray-700'>Email Address</label>
-                <input className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="email" name="email" placeholder='Enter your Email'  />
+                <input className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="email" name="email" placeholder='Enter your Email' required  />
                </div>
                <div className='flex flex-col mb-4'>
                 <label className='block text-gray-700'>Phone Number </label>
-                <input className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="phone" name="phone" placeholder='Enter your Phone Number' />
+                <input className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="phone" name="phone" placeholder='Enter your Phone Number' required />
             </div>
                <div className='flex flex-col mb-4'>
                 <label className='block text-gray-700'>Gender </label>
@@ -122,11 +125,11 @@ const Contact = () => {
             </div>
             <div className='flex flex-col mb-4'>
                 <label className='block text-gray-700'>Address </label>
-                <input className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="phone" name="phone" placeholder="Enter address here" />
+                <input className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="phone" name="phone" placeholder="Enter address here" required/>
             </div>
             <div className='flex flex-col mb-4'>
                 <label className='block text-gray-700'>Message</label>
-                <textarea className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="email" name="message" placeholder='Enter Message Here'  />
+                <textarea className='shadow appearance-none border rounded-lg px-3 py-2 text-gray-700 leading-tight focus:outline-none' type="email" name="message" placeholder='Enter Message Here' required />
             </div>
             <button type='submit' className='bg-black text-white rounded-xl px-3 py-2 hover:bg-slate-700 duration-200'>Submit</button>
 
