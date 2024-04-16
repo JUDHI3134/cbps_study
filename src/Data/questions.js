@@ -16,7 +16,7 @@ export const questions = [
     },
     {
         id:4,
-        question:"What are the services that Career Builder Professional Studies(CSPB) provide ?",
+        question:"What are the services that Career Builder Professional Studies(CBPS) provide ?",
         answer:"we help our students with various academic activities, like the choice of courses, examination registration, examination preparation and Guidance for Better results."
     },
     {

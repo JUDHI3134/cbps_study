@@ -67,10 +67,13 @@ const CourseOffer = () => {
 
             <div className='md:w-[400px] md:h-auto rounded-lg border-[2px] shadow-lg p-4 cursor-pointer hover:scale-110 duration-300'>
            <h1 className='text-3xl text-center font-bold'>ARTS & HUMANITIES</h1>
-          <p className='mt-10'>Some of the Most Popular Conventional courses in Arts and Humanities offered by various Universities through Distance/Regular Mode Student can enroll in various specializations like:</p>
-          <ul className='mt-10 space-y-2'>
-            <li className='font-semibold'><span className='text-blue-500'>BA(Bachelors in Arts)</span>: Psychology, Economics, Political science, Sociology.</li>
-            <li className='font-semibold'><span className='text-blue-500'>MA(Masters in Arts)</span>: Psychology, Economics, Political science, Sociology.</li>
+          <p className='mt-10'>Some of the Most Popular Conventional courses in Arts and Humanities offered by various Universities through Distance  /Regular Mode Student can enroll in various specializations like:</p>
+          <h1 className='mt-8 text-xl font-bold text-blue-600'>B.A & M.A :</h1>
+          <ul className='mt-6 space-y-2'>
+            <li className='font-semibold list-disc ml-2'>Psychology</li>
+            <li className='font-semibold list-disc ml-2'>Economics</li>
+            <li className='font-semibold list-disc ml-2'>Political Science</li>
+            <li className='font-semibold list-disc ml-2'>Sociology</li>
           </ul>
             </div>
 
