@@ -19,14 +19,14 @@ const CourseOffer = () => {
             <p className='font-semibold text-blue-500'>Do you want to improve your Class X Grades?</p>
             </div>
           <div className='mt-5 space-y-2'>
-          <p>You can contact our counselling center for enrollment in Class X or Matriculation from Open    schooling system like Career Builder Professional Studies(CBPS)
-          Registered Under <span className='text-blue-600'>MSME- Udyam</span> , Recognised by COBSE , Equivalent to NIOS , All State Boards and eligible for all Govt. Jobs, the certificates issued by these Boards are equivalent to CBSE, ICSE, And IGCSE, and OR State Boards.</p>
+          <p>You can contact our counselling cum Admission center for enrollment in Class X or Matriculation from Open Recognised by COBSE , Equivalent to NIOS , All State Boards and eligible for all Govt. Jobs, the certificates issued by these Boards are equivalent to CBSE, ICSE, And IGCSE, and OR State Boards.</p>
           <p>The above are most reputed open schools in India We at Career Builder Professional Studies
            Rourkela help you in completing Class X or Matriculation.</p>
           </div>
 
           <div className='mt-5'>
           <p className='font-semibold text-blue-700'>Visit us today or Call us at 8117036222</p>
+          <p className='font-semibold'>Board of open schooling & skill Education(BOOSE), Sikkim</p>
           <h1 className='font-bold mt-5'>Documents Require for Enrollment in Class X</h1>
           <ul>
             <li className='font-semibold list-disc ml-2'>Adhar Card</li>
@@ -46,15 +46,14 @@ const CourseOffer = () => {
           <p className='font-semibold text-blue-500'>Do you want to improve your Class XII Grades?</p>
           </div>
         <div className='mt-5 space-y-2'>
-          <p>You can contact our counselling center for enrollment in Class X or Matriculation from Open schooling system like Career Builder Professional Studies(CBPS)
-          Registered Under MSME-Udyam , Recognised by COBSE , Equivalent to NIOS , All State Boards and eligible for all Govt.Jobs, the certificates issued by these Boards are equivalent to CBSE, ICSE, And IGCSE, and OR State Boards.</p>
+          <p>You can contact our counselling cum Admission center for enrollment in Class XII or Intermediate from Recognised by COBSE , Equivalent to NIOS , All State Boards and eligible for all Govt.Jobs, the certificates issued by these Boards are equivalent to CBSE, ICSE, And IGCSE, and OR State Boards.</p>
           <p>The above are most reputed open schools in India We at Career Builder Professional Studies
-            Rourkela help you in completing Class X or Matriculation.</p>
+            Rourkela help you in completing Class XII or Intermediate.</p>
         </div>
 
         <div className='mt-5'>
           <p className='font-semibold text-blue-700'>Visit us today or Call us at 8117036222</p>
-          <h1 className='font-bold mt-5'>Documents Require for Enrollment in Class X</h1>
+          <h1 className='font-bold mt-5'>Documents Require for Enrollment in Class XII</h1>
           <ul>
             <li className='font-semibold list-disc ml-2'>Adhar Card</li>
             <li className='font-semibold list-disc ml-2'>Birth Certificate</li>

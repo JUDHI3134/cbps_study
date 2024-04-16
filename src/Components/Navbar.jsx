@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className='flex justify-between items-center h-25'>
             <div className='flex space-x-2 items-center'>
                 <img src={logo} alt="" className='w-[80px] h-[80px] rounded-full'/>
-                <h1 className='font-semibold flex flex-col  cursor-pointer'>CARIER BUILDER <span>PROFESSIONAL STUDIES</span>                
+                <h1 className='font-semibold flex flex-col  cursor-pointer'>CAREER BUILDER <span>PROFESSIONAL STUDIES</span>                
                 </h1>
             </div>
             {/*desktop Navbar */}
