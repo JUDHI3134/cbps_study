@@ -19,7 +19,7 @@ const CourseOffer = () => {
             <p className='font-semibold text-blue-500'>Do you want to improve your Class X Grades?</p>
             </div>
           <div className='mt-5 space-y-2'>
-          <p>You can contact our counselling cum Admission center for enrollment in Class X or Matriculation from Open Recognised by COBSE , Equivalent to NIOS , All State Boards and eligible for all Govt. Jobs, the certificates issued by these Boards are equivalent to CBSE, ICSE, And IGCSE, and OR State Boards.</p>
+          <p>You can contact our counselling cum admission center for enrollment in Class X or Matriculation from Recognised by COBSE , Equivalent to NIOS , All State Boards and eligible for all Govt. Jobs, the certificates issued by these Boards are equivalent to CBSE, ICSE, And IGCSE, and OR State Boards.</p>
           <p>The above are most reputed open schools in India We at Career Builder Professional Studies
            Rourkela help you in completing Class X or Matriculation.</p>
           </div>
@@ -46,7 +46,7 @@ const CourseOffer = () => {
           <p className='font-semibold text-blue-500'>Do you want to improve your Class XII Grades?</p>
           </div>
         <div className='mt-5 space-y-2'>
-          <p>You can contact our counselling cum Admission center for enrollment in Class XII or Intermediate from Recognised by COBSE , Equivalent to NIOS , All State Boards and eligible for all Govt.Jobs, the certificates issued by these Boards are equivalent to CBSE, ICSE, And IGCSE, and OR State Boards.</p>
+          <p>You can contact our counselling cum admission center for enrollment in Class XII or Intermediate from Recognised by COBSE , Equivalent to NIOS , All State Boards and eligible for all Govt.Jobs, the certificates issued by these Boards are equivalent to CBSE, ICSE, And IGCSE, and OR State Boards.</p>
           <p>The above are most reputed open schools in India We at Career Builder Professional Studies
             Rourkela help you in completing Class XII or Intermediate.</p>
         </div>
