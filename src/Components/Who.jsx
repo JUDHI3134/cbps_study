@@ -12,9 +12,9 @@ const Who = () => {
         <p className='mb-6'><span className='text-blue-600'>Career Builder Professional Studies</span> Rourkela is one of the preuier Educational consulting and Technical Guidance Center. Backed with Well Qualified Professionals, Who have immense Experience in Academic domain in the felids of Career Guidance, Academic Consulting and Student services. It is well lead by domain specialists. We are Govt approved Enterprise Registered with MSME (Ministry of Micro, Small & Medium Enterprises) Bearing Registration No - UDYAM-OD-30-000-1595.</p>
         <p>At Career Builder Professional Studies Rourkela We undertake some important academic functions which are very essential in selecting the Right Subjects along with Right Boards or universities. Our Basic function is to focus on following students:</p>
         <ul className='mt-3'>
-            <li className='font-semibold list-disc'>Dropped and Discontinued Students</li>
-            <li className='font-semibold list-disc'>Working Professionals</li>
-            <li className='font-semibold list-disc'>Regular Students</li>
+            <li className='font-semibold list-disc ml-2'>Dropped and Discontinued Students</li>
+            <li className='font-semibold list-disc ml-2'>Working Professionals</li>
+            <li className='font-semibold list-disc ml-2'>Regular Students</li>
         </ul>
       </div>
       <div className='mt-8'>
