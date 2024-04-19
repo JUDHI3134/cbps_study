@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo7.jpg'
+import logo from '../../public/logo7.jpg'
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import {Link} from 'react-scroll'

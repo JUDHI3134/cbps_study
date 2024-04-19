@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../assets/link1.jpg'
-import img2 from '../assets/link2.jpg'
-import img3 from '../assets/link3.jpg'
+import img1 from '../../public/link1.jpg'
+import img2 from '../../public/link2.jpg'
+import img3 from '../../public/link3.jpg'
 
 const CourseApproved = () => {
   return (

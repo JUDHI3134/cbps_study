@@ -1,9 +1,9 @@
-import isbm from '../assets/isbm.jpg'
-import kalinga from '../assets/kalinga.jpg'
-import mats from '../assets/mats.jpg'
-import niilm from '../assets/niilm.jpg'
-import ne_frontier from '../assets/ne_frontier.jpg'
-import open_school from '../assets/open_school.jpg'
+import isbm from '../../public/isbm.jpg'
+import kalinga from '../../public/kalinga.jpg'
+import mats from '../../public/mats.jpg'
+import niilm from '../../public/niilm.jpg'
+import ne_frontier from '../../public/ne_frontier.jpg'
+import open_school from '../../public/open_school.jpg'
 
 const Association = () => {
 

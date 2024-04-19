@@ -16,7 +16,8 @@ const Footer = () => {
             <a href="https://wa.me/8117036222" target='_blank'><FaWhatsapp size={24} className="text-green-700" /></a>
         </div>
         <div className='mt-8 border-t border-gray-800 pt-8 flex flex-col items-center'>
-           <p className='text-sm'>Copyright © 2024 Career Builder Professional Studies(CBPS) . All Rights Reserved.</p>
+           <p className='text-sm'>© 2024 Career Builder Professional Studies(CBPS)</p>
+           <p className='text-sm'>Design & developed by PJ IT Solution</p>
         </div>
         </div>
      </div>
