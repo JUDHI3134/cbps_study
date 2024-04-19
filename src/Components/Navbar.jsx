@@ -19,13 +19,15 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 bg-white z-50 h-20 shadow-md fixed top-0 right-0 left-0'>
-          <div className='flex justify-between items-center h-25'>
+      <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 bg-white z-50 h-22 shadow-md fixed top-0 right-0 left-0'>
+          <div className='flex justify-between items-center h-30'>
             <div className='flex space-x-2 items-center'>
                 <img src={logo} alt="" className='w-[80px] h-[80px] rounded-full'/>
-                <h1 className='font-semibold flex flex-col space-x-1cursor-pointer'>CAREER BUILDER PROFESSIONAL STUDIES
-                <span className='text-sm'>Registered under MSME-UDYAM</span>               
+               <div className='flex flex-col'>
+               <h1 className='font-semibold flex flex-col md:flex-row cursor-pointer md:gap-1'>CAREER BUILDER <span>PROFESSIONAL STUDIES</span> 
                 </h1>
+                <span className='text-sm'>Registered under MSME-UDYAM</span>               
+               </div>
             </div>
             {/*desktop Navbar */}
             <div>
